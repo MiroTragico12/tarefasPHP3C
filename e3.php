@@ -12,3 +12,4 @@ for ($i = 0; $i < $tamanho; $i++) {
 $slice = array_slice($array, PHP_INT_MAX);
 
 print_r($slice);
+echo "\n";
