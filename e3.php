@@ -1,15 +1,10 @@
-<?php
+<?php 
 
-$array = [];
-$tamanho = 10;
+$array=[];
+for($i=1;$i<=10;$i++){
 
+   $array[]=$i;
+   
+}   
 
-for ($i = 0; $i < $tamanho; $i++) {
-    $numero = readline("Digite um numero: ");
-    $array[] = $numero ; 
-}
-
-$slice = array_slice($array, PHP_INT_MAX);
-
-print_r($slice);
-echo "\n";
+print_r($array);
